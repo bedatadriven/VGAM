@@ -166,7 +166,6 @@ exportMethods(is.buggy)
 
 
 
-importMethodsFrom("splines")
 importFrom("splines", splineDesign, bs, ns)
 
 
@@ -204,12 +203,6 @@ export(familyname.vlm)
 export(familyname.vglmff)
 exportMethods(familyname)
 export(logLik.qrrvglm)
-
-
-
-importMethodsFrom("methods")
-
-
 
 importFrom("stats4", BIC)
 exportMethods(BIC)
@@ -258,12 +251,6 @@ export(nvar_vlm)
 
 importFrom("stats4", nobs)
 exportMethods(nobs)
-
-
-
-importMethodsFrom("stats4")
-
-
 
 importFrom("stats4", AIC, coef, summary, plot, logLik, vcov)
 exportMethods(AIC, AICc, coef, summary, plot, logLik, vcov)
